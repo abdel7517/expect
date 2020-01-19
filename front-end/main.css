@@ -1,0 +1,306 @@
+
+*
+{
+	font-family: sans-serif;
+	text-decoration: none !important;
+	color: black;
+
+}
+
+
+#corp
+{
+	background: rgba(0,0,0,0.65);
+	padding: 1em;
+}
+
+#infoListe
+{
+	background: rgba(15,60,255, 0.3);
+    border-radius: 10px;
+    width: 60%;
+    margin: auto;
+    padding: 0.3em;
+}
+
+.comments
+{
+	color: white;
+}
+
+.centre
+{
+	text-align: center;
+    color: white;
+    margin: 1em;
+    font-size: 1em;
+}
+
+.blanc
+{
+	color: white !important;
+}
+
+.envoie
+{
+margin-top: 1em;
+
+}
+
+body
+{
+ background-image: url(http://www.worldweb.fr/expect/front-end/back.jpg);
+}
+
+
+h1
+{
+ text-align: center;
+ color: white !important;
+ font-weight: bold;
+ font-style: italic;
+ font-size: 2em;
+
+}
+.liste, p
+{
+	color: white !important;
+	text-align: center;
+	width: 54% !important;
+	margin: auto !important;
+	margin-bottom: 1em !important;
+	font-size: 1.5em;
+}
+
+strong
+{
+	font-size: 1.5em;
+
+}
+
+ol
+{
+	margin-top: 3em;
+
+}
+li
+{
+	margin: 1em;
+}
+
+
+
+ form
+ {
+ 	text-align: center;
+ 	margin-bottom: 1em !important;
+
+ }
+
+/* Menu de naviguation
+*/
+
+
+header
+{
+	background: blue;
+	opacity: 0.8;
+	width: 100%;
+	border-radius: 10px;
+}
+
+.logo
+{
+	border-radius: 10px;
+}
+
+.flex
+{
+	display: flex !important;
+	margin: 2em 0em 1em 2em;
+}
+.link-page
+{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+
+div nav {
+	margin: 0.9em 1em 1em 1em;
+	font-size: 1.3em;
+	font-weight: bold;
+	color: white !important;
+	display: block;
+}
+
+/* Menu pour mobile */
+
+
+#main
+{
+
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: space-around;
+	margin: 0em 1.5em 1.5em 1.5em;
+	padding: 2em 1em 2em 1em;
+	padding-top: 4em;
+	border-radius: 10px;
+
+}
+
+.liste
+{
+	border-radius: 20px;
+	width: 200px;
+	height: 200px;
+	margin: 1em;
+	box-shadow: 1px 1px 8px 1px #cad1d9;
+	margin: 2em;
+	background: white;
+}
+
+.image
+{
+	display: block;
+	height: 70%;
+}
+
+.band
+{
+	background: black !important;
+	width: 100%;
+	height: 20%;
+	display: block;
+	color: white;
+	margin-bottom: 0.5em;
+	padding-top: 0.2em;
+}
+
+
+/* Formulaire */
+
+li
+{
+	margin-bottom: 0.35em;
+}
+
+ #formNewAnn
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 4em 1em 2em 1em;
+	margin: 2em 1.5em 1.5em 1.5em;
+	border-radius: 10px;
+
+
+}
+
+.formLeg
+{
+border: 2px solid black;
+border-radius: 10px;
+padding: 2em 1em 1em 1em;
+margin: 1em 1.5em 1.5em 1.5em;
+padding: 2em 1em 1em 1em;
+height: 90%;
+}
+
+#ancre, .formLeg
+{
+	background: white;
+	box-shadow: 1px 1px 8px 1px #cad1d9;
+}
+
+
+.formAnnonce
+{
+	margin: 1em 1.5em 1.5em 1.5em;
+	padding: 2em 1em 1em 1em;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	width: 20%;
+	margin: auto;
+	opacity: 0.8;
+	background: rgba(15,60,255, 0.3);
+    border-radius: 10px;
+    margin-top: 1em;
+
+}
+
+form
+{
+margin: 1em 1.5em 1.5em 1.5em;
+	padding: 2em 1em 1em 1em;
+	background: #EDEDED;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+
+}
+
+label, input
+{
+	color: black !important;
+ text-decoration: none !important;
+ margin: 0.1em;
+    margin: auto;
+    margin-bottom: 1em !important;
+    width: 80%;
+}
+
+textarea
+{
+	height: 8em;
+	margin-bottom: 1em;
+}
+
+.formAnnonce < input
+{
+	width: 49%;
+}
+
+#confirm
+{
+	color: red
+}
+
+
+/* affichage des listes d'attente */
+
+
+.bloc
+{
+	  width: 220px;
+  height: 120px;
+  display: block;
+  box-shadow: #A3A3A0 0px 2px 15px 6px;
+  text-align: center;
+  margin: 3em;
+  background: grey;
+  opacity: 0.8;
+}
+
+.liste
+{
+	font-weight: bold;
+	font-size: 1em;
+}
+
+@media all  and (max-width: 900px)
+{
+	.logo
+	{
+		display: none;
+	}
+.liste
+{
+	width: auto;
+}
+
+
+
+}
